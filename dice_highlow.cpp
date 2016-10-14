@@ -37,7 +37,7 @@ int main()
     //Round number;
     int rnd = 1;
     cout<<"You: "<<scr1<<", Oppon: "<<scr2<<endl;
-    while(scr1>0 || scr2>0)
+    while(abs(scr1-scr2)>=200)
     {
         for(int i=1;i<=20;i++){cout<<'-';}
         cout<<"round "<<rnd<<endl;        
